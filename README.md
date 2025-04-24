@@ -1,42 +1,41 @@
 # Virtual Shopping: AI-Driven Influence
 
-This repository replicates the Medium article **"Virtual Shopping: AI-Driven Influence Revolutionizing How Brands Approach E-Commerce"** by Anushka Gupta, preserving its layout and styling as closely as possible.
+# AI-Based Virtual Shopping Prototype
 
-## 📜 Overview
-This project aims to recreate the article using HTML and CSS while maintaining a Medium-like reading experience.
+This open-source project showcases an innovative approach to immersive, AI-driven e-commerce. It demonstrates how virtual storefronts and intelligent personalisation can enhance user engagement and redefine the digital shopping experience.
 
-## 📂 Repository Structure
-```
-virtual-shopping-ai/
-│── index.html      # Main article page
-│── styles.css      # CSS for styling
-│── images/         # Contains images used in the article
-│── README.md       # Overview of the repository
-│── .gitignore      # Ignore unnecessary files (if needed)
-```
+## Key Highlights
 
-## 🚀 How to Run
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/virtual-shopping-ai.git
-   cd virtual-shopping-ai
-   ```
-2. **Open `index.html` in a browser**
-   - Simply double-click the file, or
-   - Use a local server (optional):
-     ```bash
-     python -m http.server 8000
-     ```
-     Open [http://localhost:8000](http://localhost:8000) in your browser.
+- AI-powered product recommendations  
+- Immersive 3D virtual store built with Twinmotion  
+- UX strategy for try-on and blockchain integration  
+- Designed to help SMEs explore scalable, tech-driven retail  
 
-## 🌐 Deploy on GitHub Pages
-1. Push changes to GitHub.
-2. Go to **Settings > Pages**.
-3. Select **`main` branch** as the source.
-4. Your site will be available at:
-   ```
-   https://your-username.github.io/virtual-shopping-ai/
-   ```
+## Supporting Research & Validation
+
+- [Medium Article (2025)](https://medium.com/@your-link)
+- [Prototype & Research (Behance, 2023)](https://behance.net/your-link)
+
+---
+## Note
+
+README last updated on April 25, 2025. Codebase and project assets remain unchanged since initial commit. Improved for better clarity.
+
+---
+
+## 🛠️ Repository Contents
+
+- `index.html`, `style.css`: Core front-end files for the prototype.
+- `README.md`: You are here!
+- `/assets`: Placeholder visual elements.
+- Research & engagement snapshots from prototype testing.
+
+---
+
+## 🙌 Acknowledgments
+
+Thanks to all contributors and mentors who reviewed this project. Pull Requests and community suggestions are welcome — feel free to explore, fork, or give feedback!
+
 
 ## 📖 Original Article
 Read the original article on **[Medium](https://medium.com/@anushkaguptaofficial/virtual-shopping-ai-driven-influence-revolutionizing-how-brands-approach-e-commerce-f3d71518e4be)**.
