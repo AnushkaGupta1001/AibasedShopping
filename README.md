@@ -1,5 +1,3 @@
-# Virtual Shopping: AI-Driven Influence
-
 # AI-Based Virtual Shopping Prototype
 
 This open-source project showcases an innovative approach to immersive, AI-driven e-commerce. It demonstrates how virtual storefronts and intelligent personalisation can enhance user engagement and redefine the digital shopping experience.
@@ -19,7 +17,7 @@ This open-source project showcases an innovative approach to immersive, AI-drive
 ---
 ## Note
 
-README last updated on April 25, 2025. Codebase and project assets remain unchanged since initial commit. Improved for better clarity.
+README last updated on April, 2025. Codebase and project assets remain unchanged since initial commit. Improved for better clarity.
 
 ---
 
