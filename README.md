@@ -11,8 +11,8 @@ This open-source project showcases an innovative approach to immersive, AI-drive
 
 ## Supporting Research & Validation
 
-- [Medium Article (2025)](https://medium.com/@https://medium.com/@anushkaguptaofficial/virtual-shopping-ai-driven-influence-revolutionizing-how-brands-approach-e-commerce-f3d71518e4be)
-- [Prototype & Research (Behance, 2023) ] (https://www.behance.net/gallery/181432519/Follow-or-Get-Followed-Ai-driven-Virtual-Shopping)
+- [Medium Article (2025)](https://medium.com/@anushkaguptaofficial/virtual-shopping-ai-driven-influence-revolutionizing-how-brands-approach-e-commerce-f3d71518e4be)
+- [Prototype & Research (Behance, 2023)](https://www.behance.net/gallery/181432519/Follow-or-Get-Followed-Ai-driven-Virtual-Shopping)
 
 ---
 ## Note
