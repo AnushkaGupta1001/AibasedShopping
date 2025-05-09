@@ -12,7 +12,7 @@ This open-source project showcases an innovative approach to immersive, AI-drive
 ## Supporting Research & Validation
 
 - [Medium Article (2025)](https://medium.com/@your-link)
-- [Prototype & Research (Behance, 2023)](https://behance.net/your-link)
+- [Prototype & Research (Behance, 2023)](https://behance.net/[your-link](https://www.behance.net/gallery/181432519/Follow-or-Get-Followed-Ai-driven-Virtual-Shopping)
 
 ---
 ## Note
