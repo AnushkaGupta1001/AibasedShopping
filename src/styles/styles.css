@@ -16,6 +16,7 @@ header {
     padding: 20px;
     font-size: 1.8rem;
     font-weight: bold;
+    position: relative;
 }
 
 /* Main Content */
@@ -97,4 +98,76 @@ footer {
     color: white;
     margin-top: 20px;
     font-size: 1rem;
+}
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header.dark-mode {
+    background: #1f1f1f;
+    color: #ffffff;
+}
+
+main.dark-mode {
+    background: #1a1a1a;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+h2.dark-mode {
+    color: #90caf9;
+    border-left-color: #42a5f5;
+}
+
+h3.dark-mode {
+    color: #f0f0f0;
+}
+
+a.dark-mode {
+    color: #64b5f6;
+}
+
+a.dark-mode:hover {
+    color: #90caf9;
+}
+
+strong.dark-mode {
+    color: #ffab91;
+}
+
+ul li.dark-mode {
+    color: #e0e0e0;
+}
+
+.submit-btn.dark-mode {
+    background-color: #1e88e5;
+    color: white;
+}
+
+.submit-btn.dark-mode:hover {
+    background-color: #1565c0;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.toggle-dark-mode {
+    position: absolute; /* Position the button within the header */
+    top: 10%;
+    right: 20px;
+    transform: translateY(-50%); /* Center vertically */
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #005bb5;
+}
+
+.toggle-dark-mode:hover {
+    background-color: #005bb5;
 }
