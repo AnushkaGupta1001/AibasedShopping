@@ -5,11 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ai-driven Virtual Shopping</title>
     <link rel="stylesheet" href="styles.css">
+     <style>
+    /* Light Mode Defaults (already assumed in your styles.css) */
+    body {
+      background-color: white;
+      color: black;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Dark Mode Styles */
+    body.dark-mode {
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    .dark-mode header,
+    .dark-mode main {
+      background-color: #1e1e1e;
+    }
+
+    .toggle-dark-mode {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      background-color: #444;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .toggle-dark-mode:hover {
+      background-color: #666;
+    }
+
+    .submit-btn {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #2980b9;
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .dark-mode .submit-btn {
+      background-color: #5dade2;
+    }
+
+    .dark-mode .submit-btn:hover {
+      background-color: #3498db;
+    }
+  </style>
 </head>
 <body>
     <header>
         <h1>Ai-driven Virtual Shopping
            <p>The Future of Marketing is Here</p></h1>
+           <button class="toggle-dark-mode" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
     </header>
     
     <main>
@@ -108,6 +170,12 @@
           box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
       </style>
+
+      <script>
+        function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+        }
+      </script>
       
 
 </body>
