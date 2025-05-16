@@ -1,168 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI-driven Virtual Shopping</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-  <style>
-    body.dark-mode {
-      background-color: #121212;
-      color: #f0f0f0;
-    }
-
-    .dark-mode header, .dark-mode main {
-      background-color: #1e1e1e;
-    }
-
-    .toggle-dark-mode {
-      position: absolute;
-      top: 10px;
-      right: 20px;
-      background-color: #444;
-      color: white;
-      padding: 8px 16px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    .carousel-title {
-      font-size: 1.5rem;
-      font-weight: 600;
-      margin: 30px 10px 10px;
-    }
-
-    .carousel-card {
-      padding: 1rem;
-      background: #f0f0f0;
-      margin: 10px;
-      text-align: center;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    }
-
-    .carousel-card img {
-      max-width: 100%;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin-bottom: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-driven Virtual Shopping</title>
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="icon" href="src/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <header>
-    <h1>AI-driven Virtual Shopping</h1>
-    <p>The Future of Marketing is Here</p>
-    <button class="toggle-dark-mode" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
-  </header>
+    <header>
+        <h1>Ai-driven Virtual Shopping
+           <p>The Future of Marketing is Here</p>
+        </h1>
+        <button class="toggle-dark-mode" onclick="toggleDarkMode()">Dark Mode</button>
+    </header>
+    
+    <main>
+        <p>In a world where digital presence defines brand success, the intersection of AI, immersive technology, and consumer psychology is creating unprecedented opportunities.</p>
 
-  <main>
-    <!-- Carousel 1 -->
-    <section>
-      <div class="carousel-title">👥 AI-Powered Engagement Champions</div>
-      <div class="carousel">
-        <div class="carousel-card">
-          <img src="https://i.pravatar.cc/300?img=11" alt="AI Marketer" />
-          <h3>AI Marketer</h3>
-          <p>Crafts content using Jasper & ChatGPT</p>
+        <!-- YouTube Video Embed -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wdpnoP-1tcQ" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="carousel-card">
-          <img src="https://i.pravatar.cc/300?img=14" alt="Engagement Bot" />
-          <h3>Engagement Bot</h3>
-          <p>Automates replies using ManyChat</p>
-        </div>
-        <div class="carousel-card">
-          <img src="https://i.pravatar.cc/300?img=18" alt="Visual AI Artist" />
-          <h3>Visual AI Artist</h3>
-          <p>Creates assets via DALL·E & Synthesia</p>
-        </div>
-      </div>
-    </section>
 
-    <!-- Carousel 2 -->
-    <section>
-      <div class="carousel-title">🖼️ Immersive Commerce Artworks</div>
-      <div class="carousel">
-        <div class="carousel-card">
-          <img src="https://via.placeholder.com/400x200?text=Neon+Metaverse" alt="Neon Metaverse" />
-          <h3>Neon Metaverse</h3>
-          <p>Built for Twinmotion store showcase</p>
-        </div>
-        <div class="carousel-card">
-          <img src="https://via.placeholder.com/400x200?text=AI+Showroom" alt="AI Showroom" />
-          <h3>AI Showroom</h3>
-          <p>Combines Unity + Unreal Engine</p>
-        </div>
-        <div class="carousel-card">
-          <img src="https://via.placeholder.com/400x200?text=360+Dreamwear" alt="360 Dreamwear" />
-          <h3>360° Dreamwear</h3>
-          <p>Interactive 3D fashion experience</p>
-        </div>
-      </div>
-    </section>
+        <h2>How Businesses Can Leverage AI and Immersive Technology to Build a Competitive Edge</h2>
+        
+        <p>The digital landscape is evolving at an unprecedented pace, blurring the lines between social influence, artificial intelligence, and virtual commerce. Brands that understand and adopt AI-driven audience engagement and immersive shopping experiences will be the ones shaping the future.</p>
 
-    <!-- Carousel 3 -->
-    <section>
-      <div class="carousel-title">💰 Top NFT Bids in Virtual Retail</div>
-      <div class="carousel">
-        <div class="carousel-card">
-          <img src="https://via.placeholder.com/400x200?text=Decentraland+Drop" alt="Decentraland Drop" />
-          <h3>Decentraland Drop</h3>
-          <p>Bid: $3,800<br/>Limited AR-wearable for avatars</p>
-        </div>
-        <div class="carousel-card">
-          <img src="https://via.placeholder.com/400x200?text=AI+Memory+Maze" alt="AI Memory Maze" />
-          <h3>AI Memory Maze</h3>
-          <p>Bid: $4,200<br/>Algorithmic artwork for collectors</p>
-        </div>
-        <div class="carousel-card">
-          <img src="https://via.placeholder.com/400x200?text=Immersive+Skin" alt="Immersive Skin" />
-          <h3>Immersive Skin</h3>
-          <p>Bid: $5,100<br/>Custom avatar clothing for 3D store</p>
-        </div>
-      </div>
-    </section>
-  </main>
+        <p>This article explores two key innovations — <strong>AI-powered engagement strategies</strong> and <strong>3D virtual stores</strong> — and how businesses, marketers, and tech leaders can leverage them for sustainable growth.</p>
 
-  <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script>
-    function toggleDarkMode() {
-      document.body.classList.toggle("dark-mode");
-    }
+         <p>Here we explore how audience engagement can multiply through AI-driven marketing, while my <strong>Twinmotion-powered virtual store prototype</strong> (as featuring above) is an example of how brands can approach e-commerce in this new age using the right tech-driven tools in virtual experiences such as Decentraland or Second Life.</p>
 
-    $('.carousel').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    dots: true,
-    arrows: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    pauseOnHover: true,
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                arrows: false
-            }
-        }
-    ]
-});
-  </script>
+        <p>Take a look at my full research work — <a href="https://www.behance.net/gallery/181432519/Follow-or-Get-Followed" target="_blank">check here</a>.</p>
+        
+        <h2>1. AI-Driven Audience Engagement: The New Rules of Influence</h2>
+        <p>The concept of “Follow or Get Followed” highlights the changing dynamics of audience engagement. Today, algorithms, AI, and automation dictate visibility, making it critical for businesses and individuals to work with these systems rather than against them.</p>
+
+        <h3>How AI is Transforming Audience Growth & Engagement</h3>
+        <ul>
+           <p><strong>🔹 Predictive Analytics for Content Strategy:</strong> AI tools like ChatGPT, Jasper, and Copy.ai can analyze market trends, user behavior, and engagement patterns to create high-performing content strategies.</p>
+            <p><strong>🔹 Automated Engagement Loops:</strong> Platforms prioritize consistent interaction, and AI can automate responses, recommendations, and engagement tactics using tools like HubSpot and ManyChat.</p>
+            <p><strong>🔹 AI-Powered Content Creation & Personalization:</strong> AI-generated content is now a necessity, with tools like Synthesia (AI video) and DALL·E (AI visuals) enabling brands to scale personalized experiences.</p>
+        </ul>
+
+        <h3>What Businesses Can Do Right Now:</h3>
+        <ul>
+            <p>✅ Use AI-powered insights to craft content that aligns with what the algorithm favors.</p>
+            <p>✅ Automate repetitive engagement tasks (DM responses, content recommendations, etc.).</p>
+            <p>✅ Leverage AI-generated personalization to keep audiences engaged.</p>
+        </ul>
+
+        <h2>2. Virtual Commerce: How 3D Shopping Experiences Are Redefining Retail</h2>
+        <p>While AI optimizes engagement, virtual stores redefine how people shop. With advancements in real-time 3D visualization tools like Twinmotion, Unreal Engine, and Unity, brands can now create immersive, interactive shopping experiences that increase conversion rates.</p>
+
+        <h3>The Shift Toward Immersive E-Commerce</h3>
+        <ul>
+            <p><strong>🛒 From Static Pages to Virtual Experiences:</strong> Consumers demand more than images and descriptions. Virtual stores let customers walk through a digital space, interact with products, make informed decisions and pay using blockchain capabilities.</p>
+            <p><strong>🤖 AI-Driven Personalization in 3D Spaces:</strong> AI-powered recommendations within a virtual store create tailored shopping experiences, dynamically rearranging content based on user behavior.</p>
+        </ul>
+
+        <h3>💡 Real-World Use Case: The Twinmotion Virtual Store</h3>
+        <p>A fully interactive virtual store built using Twinmotion lets customers explore products in a photorealistic 3D space, mimicking an in-store experience and increasing engagement.</p>
+
+        <h3>How Brands Can Leverage This Right Now:</h3>
+        <ul>
+            <p>✅ Implement 360° product visualizations to enhance digital shopping.</p>
+            <p>✅ Use AI to personalize product recommendations in virtual spaces.</p>
+            <p>✅ Allow qualifying customers to pay through cryptocurrencies which can build the companies virtual assets and also encourage crypto enthusiasts to shop wherever they can.</p>
+            <p>✅ Explore Twinmotion, Unreal Engine, or WebXR for interactive retail experiences.</p>
+        </ul>
+
+        <h2>The Future: Merging AI-Driven Influence with Virtual Commerce</h2>
+        <p>The convergence of AI-driven engagement strategies and immersive commerce is opening new doors for brands. In the next few years, we can expect:</p>
+        <ul>
+            <p>📈 AI-powered recommendation engines inside 3D stores</p>
+            <p>🎮 Gamification of shopping experiences to increase retention</p>
+            <p>🛍️ Metaverse-style retail environments where customers engage in real-time</p>
+        </ul>
+
+        <h2>Final Thoughts: The Future of AI & Virtual Commerce</h2>
+        <p>As the boundaries between technology, marketing, and consumer engagement continue to blur, brands must embrace AI and immersive commerce to stay ahead. Through my work in marketing innovation, AI-driven automation, and virtual brand experiences, I am committed to shaping the future of tech-driven digital engagement.</p>
+
+        <p>For businesses and tech leaders, the key takeaway is clear: <strong>Adapt now or risk being left behind.</strong> Whether you’re in e-commerce, digital marketing, or AI-driven content creation, integrating these technologies will be a game-changer for growth.</p>
+
+        <p>🚀 What strategies are you using to merge AI and immersive experiences? Let’s discuss in the comments!</p>
+
+        <p>💡 The question is no longer whether brands should innovate — but <strong>how fast</strong> they can adapt.</p>
+
+        <h2>Let’s Connect!</h2>
+        <p>If you’re interested in AI-driven marketing, virtual commerce, or the future of digital engagement, feel free to connect with me! 🚀</p>
+    </main>
+      
+    <script src="src/scripts/script.js"></script>
 </body>
 </html>
