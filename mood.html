@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood-Based Shopping Experience</title>
+    <link rel="stylesheet" href="src/styles/mood-styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <h1>Mood Shopping</h1>
+            <button class="toggle-dark-mode" onclick="toggleDarkMode()">Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mood-selector">
+            <h2>How are you feeling today?</h2>
+            <div class="mood-grid">
+                <div class="mood-card" data-mood="energetic">
+                    <div class="mood-icon">⚡</div>
+                    <h3>Energetic</h3>
+                    <p>Vibrant colors & bold patterns</p>
+                </div>
+                <div class="mood-card" data-mood="calm">
+                    <div class="mood-icon">🌊</div>
+                    <h3>Calm</h3>
+                    <p>Soft pastels & flowing fabrics</p>
+                </div>
+                <div class="mood-card" data-mood="sophisticated">
+                    <div class="mood-icon">✨</div>
+                    <h3>Sophisticated</h3>
+                    <p>Classic neutrals & elegant cuts</p>
+                </div>
+                <div class="mood-card" data-mood="cozy">
+                    <div class="mood-icon">🧸</div>
+                    <h3>Cozy</h3>
+                    <p>Warm tones & comfortable fits</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="outfit-showcase hidden">
+            <div class="color-palette"></div>
+            <div class="outfit-grid">
+                <!-- Outfits will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <section class="theme-selector hidden">
+            <h2>Select Your Theme</h2>
+            <div class="theme-grid">
+                <div class="theme-card" data-theme="casual">
+                    <img src="https://picsum.photos/seed/casual/300/200" alt="Casual Theme">
+                    <h3>Casual</h3>
+                </div>
+                <div class="theme-card" data-theme="formal">
+                    <img src="https://picsum.photos/seed/formal/300/200" alt="Formal Theme">
+                    <h3>Formal</h3>
+                </div>
+                <div class="theme-card" data-theme="streetwear">
+                    <img src="https://picsum.photos/seed/street/300/200" alt="Streetwear Theme">
+                    <h3>Streetwear</h3>
+                </div>
+                <div class="theme-card" data-theme="athleisure">
+                    <img src="https://picsum.photos/seed/athletic/300/200" alt="Athleisure Theme">
+                    <h3>Athleisure</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="src/scripts/mood-script.js"></script>
+</body>
+
+</html>
